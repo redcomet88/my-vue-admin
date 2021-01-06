@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <p>HelloWorld</p>
+    <p>User: {{ $route.params.id }}</p>
+    <p><router-view></router-view></p>
   </div>
 </template>
 
